@@ -1,0 +1,114 @@
+:root{
+
+}
+
+body{
+    min-width: 620px;
+    background-color: #eeebdd;
+    font-family: "Lato", sans-serif;
+
+}
+
+h3 {
+    text-align: center;
+    color: gray;
+    align: center;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo img{
+    width: 6rem;
+    height: 4rem;
+    object-fit: fill;
+}
+
+.sidebar{
+    float: left;
+    width: 20%;
+}
+
+.content{
+    float: left;
+    width: 60%;
+    margin_left: 2%;
+    margin_right: 2%;
+
+}
+
+.tile{
+    padding: 1%;
+
+}
+
+.class{
+
+}
+
+.right_bar{
+    float: left;
+    width: 20%;
+}
+
+.stocks_board{
+    #pp_t{width:180px; background-color:#d9d9d9;}
+    #pp_t td{padding:1px 2px}
+    #pp_h{font-size:75%; font-family:arial; font-weight:bold; color:#ffffff; background-color:#6677aa;}
+    #pp_s{font-size:69%; font-family:arial; color:#000000; text-decoration:none;}
+    #pp_v{font-size:69%; font-family:arial;}
+    #pp_cu{font-size:69%; font-family:arial; color:#005500;}
+    #pp_cd{font-size:69%; font-family:arial; color:#ff0000;}
+    #pp_d{font-size:69%; font-family:arial;}
+    #pp_r1{background-color:#ffffff;}
+    #pp_r2{background-color:#ffffff;}
+    #pp_n{display:table-row;}
+
+}
+
+.footer{
+    text-align: center;
+}
+
+
+/* NAVBAR */
+
+#title .container-fluid {
+    padding: 5px 4%;
+    text-align: left;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Linki */
+
+a:hover{
+    color: red;
+}
+
+.menu_option{
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted #4444444;
+    opacity: 0.8;
+}
+
+.menu_option:hover{
+    background: gray;
+    cursor: pointer;
+}
